@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['animal', 'bicycle', 'person', 'vehicle']
+
+roboflow:
+  workspace: anands-workspace-tiwaq
+  project: everydayscenes-40
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/anands-workspace-tiwaq/everydayscenes-40/dataset/1
